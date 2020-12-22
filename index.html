@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Free Web tutorials"/>
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript"/>
+    <meta name="author" content="John Doe"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style-min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/magnific-popup.css">
+    <script src="https://kit.fontawesome.com/f0703ae7fb.js" crossorigin="anonymous"></script>
+    <title>Главная страница</title>
+  </head>
+  <body>
+   <div class="sidebar">
+      <button class="sidebar__button sidebar__hover sidebar__button-menu">
+        <div class="sidebar__menu">
+            <span class="sidebar__line"></span>
+            <span class="sidebar__line"></span>
+            <span class="sidebar__line"></span>
+        </div>
+      </button>
+      <button class="sidebar__button sidebar__hover sidebar__button-search">
+          <i class="fas fa-search"></i>
+      </button>
+      <button class="sidebar__button sidebar__cursor sidebar__button-shop">
+        <div class="sidebar__subbtn sidebar__subbtn-shop">
+            <input type="num" value="0"class="sidebar__num sidebar__num1" disabled>
+            <i class="fas fa-shopping-bag"></i>
+        </div>
+      </button>
+      <button class="sidebar__button sidebar__hover sidebar__button-sign-in">
+          <i class="far fa-user-circle"></i>
+      </button>
+      <button class="sidebar__button sidebar__cursor">
+        <div class="sidebar__subbtn">
+              <input type="text" class="sidebar__num sidebar__num2" value="0" disabled>
+              <div class="sidebar__stat">
+                  <span class="sidebar__stat-line"></span>
+                  <span class="sidebar__stat-line"></span>
+                  <span class="sidebar__stat-line"></span>
+              </div>
+        </div>
+      </button>
+    </div>
+
+
+    <div class="mob__sidebar">
+      <button class="sidebar__button sidebar__hover sidebar__button-menu">
+        <div class="sidebar__menu">
+            <span class="sidebar__line"></span>
+            <span class="sidebar__line"></span>
+            <span class="sidebar__line"></span>
+        </div>
+      </button>
+      <button class="sidebar__button sidebar__hover sidebar__button-search">
+          <i class="fas fa-search"></i>
+      </button>
+      <button class="sidebar__button sidebar__hover sidebar__button-sign-in">
+          <i class="far fa-user-circle"></i>
+      </button>
+      <button class="sidebar__button sidebar__cursor sidebar__button-tel">
+        <i class="fas fa-phone-alt"></i>
+      </button>
+      <button class="sidebar__button sidebar__cursor">
+        <div class="sidebar__subbtn sidebar__subbtn-shop">
+            <input type="num" value="0"class="sidebar__num sidebar__num1" disabled>
+            <i class="fas fa-shopping-bag"></i>
+        </div>
+      </button>
+
+    </div>
+
+
+    <header class="header" id="top">
+      <div class="header__logo">
+          <span class="header__logo-name">
+              Shoe store
+          </span>
+          <span class="header__logo-subname">
+              Магазин обуви
+          </span>
+      </div>
+      <ul class="header__nav">
+        <li class="header__item">
+            <a class="header__link" href="index.html">
+                Главная
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="about-company.html">
+                О компании
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="delivery.html">
+                Доставка
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="reviews.html">
+                Отзывы
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="contacts.html">
+                Контакты
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="multylink.html">
+                Мультиссылка
+            </a>
+        </li>
+      </ul>
+      <div class="header__contacts">
+           <i class="fas fa-phone-alt"></i>
+           <span class="header__num">
+               +7 (000) 000-00-00
+           </span>
+            <div class="header__dots">
+                <span class="dots__item"></span>
+                <span class="dots__item"></span>
+                <span class="dots__item"></span>
+            </div>
+      </div>
+    </header>
+    <div class="header__contacts-item">
+        <h3 class="info__contacts">
+            Контакты
+        </h3>
+        <div class="info__map">
+            <p class="info__map-text">
+                г. Москва, Ленинский проспект, дом
+            </p>
+            <i class="fas fa-map-pin"></i>
+        </div>
+        <div class="info__tels">
+            <a href="tel:+7 (000) 000-00-00" class="info__tel">
+                +7 (000) 000-00-00
+            </a>
+            <a href="tel:8 (000) 111-11-11" class="info__tel">
+                8 (000) 111-11-11
+            </a>
+            <i class="fas fa-phone-alt"></i>
+        </div>
+        <div class="info__item">
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-vk"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-odnoklassniki"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <a href="#!" class="header__contacts-call">
+            Заказать
+        </a>
+        <i class="fas fa-times header__contacts-item-close"></i>
+    </div>
+
+    <div class="menu__catalog">
+        <h2 class="menu__catalog-ttl">
+            Каталог
+        </h2>
+        <div class="menu__catalog-item">
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Женская обувь
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Спортивная обувь
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Мужская обувь
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Детская обувь
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Аксессуары
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <ul class="menu__header">
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="index.html">
+                        Главная
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="about-company.html">
+                        О компании
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="delivery.html">
+                        Доставка
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="reviews.html">
+                        Отзывы
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="contacts.html">
+                        Контакты
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="multylink.html">
+                        Мультиссылка
+                    </a>
+                </li>
+        </ul>
+        <i class="fas fa-times menu__catalog-close"></i>
+    </div>
+
+    <div class="menu__search">
+        <h3 class="menu__catalog-ttl">
+            Поиск
+        </h3>
+        <div class="menu__search-input">
+            <input type="text" placeholder="Поиск по магазину">
+            <i class="fas fa-search"></i>
+        </div>
+        <button class="menu__search-button">
+            Расширенный поиск
+            <i class="fas fa-sliders-h"></i>
+        </button>
+        <i class="fas fa-times menu__catalog-close menu__search-close"></i>
+    </div>
+
+    <div class="menu__shop">
+        <h3 class="menu__shop-ttl">
+            Корзина
+        </h3>
+        <div class="menu__cart-list">
+            <div class="menu__cart">
+                <a href="#!" class="menu__cart-item">
+                    <img src="img/popular/1.png" alt="" class="menu__cart-pic">
+                </a>
+                <div class="menu__cart-item">
+                    <a href="#!" class="menu__cart-ttl">
+                        Кроссовки W965541
+                    </a>
+                    <div class="menu__cart-flex">
+                        <div class="popular__counter">
+                            <div class="popular__minus">
+                                -
+                            </div>
+                            <div class="popular__count-num">
+                                1
+                            </div>
+                            <div class="popular__plus">
+                                +
+                            </div>
+                        </div>
+                        <b class="popular__price">6 490 <span>р.</span></b>
+                    </div>
+                    <i class="far fa-trash-alt menu__cart-del"></i>
+                </div>
+            </div>
+      </div>
+        <div class="menu__products">
+            <div class="menu__products-item">
+                <h5 class="menu__products-ttl menu__products-name">
+                    Товаров
+                </h5>
+                <span class="menu__products-num menu__products-number">
+                    0
+                </span>
+            </div>
+            <div class="menu__products-item">
+                <h5 class="menu__products-total menu__products-name">
+                    Итого
+                </h5>
+                <span class="menu__products-price menu__products-number">
+                    0 <span>р</span>
+                </span>
+            </div>
+        </div>
+        <a href="#!" class="menu__shop-to-cart menu__shop-btn">
+            Перейти в корзину
+        </a>
+        <div class="menu__shop-buy-del">
+            <a href="#!" class="menu__shop-buy menu__shop-btn">
+                Оформить заказ
+            </a>
+            <a href="#!" class="menu__shop-del menu__shop-btn">
+                Очистить
+            </a>
+        </div>
+    </div>
+
+    <div class="menu__sign-in">
+        <h3 class="menu__catalog-ttl">
+            Кабинет
+        </h3>
+        <form action="" class="menu__sign-form">
+            <div class="menu__sign-input-wrap">
+                <input type="email" class="menu__sign-input" placeholder="Логин">
+                <i class="far fa-user"></i>
+            </div>
+            <div class="menu__sign-input-wrap">
+                <input type="password" class="menu__sign-input" placeholder="Пароль">
+                <i class="fas fa-unlock-alt"></i>
+            </div>
+            <a href="#!" class="sign__password">
+                Забыли пароль?
+            </a>
+            <div class="sign__buttons">
+                <a href="#!" class="sign__sign sign__button">
+                    Войти
+                </a>
+                <a href="#!" class="sign__registration sign__button">
+                    Регистрация
+                </a>
+            </div>
+        </form>
+        <h4 class="sign__with">
+            Также Вы можете войти через:
+        </h4>
+        <div class="sign__links">
+            <a href="#!" class="sign__link">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-vk"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fas fa-at"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-odnoklassniki"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-yandex"></i>
+            </a>
+        </div>
+        <p class="sign__more">
+            Я согласен(на) на обработку моих персональных данных. <a href="#!">Подробнее</a>
+        </p>
+        <i class="fas fa-times menu__catalog-close menu__sign-in-close"></i>
+    </div>
+
+
+
+    <a href="#top" class="to__top">
+        Вверх
+        <i class="fas fa-arrow-right"></i>
+    </a>
+    <div class="wrapper__wrapper">
+    <div class="wrapper">
+      <div class="intro__grid">
+        <div class="intro__item intro__slider">
+          <div class="intro__slider-wrapper">
+              <a href="#!" class="intro__slide intro__slide1">
+                  <h2 class="intro__slide-title">Кроссовки<br> Sampi</h2>
+              </a>
+              <a class="intro__slide intro__slide2" href="#!">
+                  <h2 class="intro__slide-title">Стильная<br> коллекция</h2>
+              </a>
+              <a class="intro__slide intro__slide3" href="#!">
+                  <h2 class="intro__slide-title">Новая коллекция<br> Allofoan</h2>
+              </a>
+            </div>
+        </div>
+        <div class="intro__item intro__item-flex intro__item-bg">
+          <h3 class="intro__price-title">Лучшая цена</h3>
+          <button class="intro__price-btn">3 920<span>р</span></button>
+        </div>
+        <div class="intro__item intro__item-flex intro__item-grad">
+          <div class="intro__flex">
+            <h3 class="intro__flex-title">Скидки до<span>-40%</span></h3><i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="intro__flex"><i class="fas fa-bullhorn"></i>
+            <button class="intro__watch">Смотреть</button>
+          </div>
+        </div>
+      </div>
+      <div class="categories">
+        <div class="categories__item categories__tags">
+          <h3 class="tags__title">Подборки /</h3>
+          <div class="tags__tags"><a class="tags__tag" href="#!">Спорт</a><a class="tags__tag" href="#!">женщинам</a><a class="tags__tag" href="#!">Рюкзаки</a><a class="tags__tag" href="#!">Теплая обувь</a><a class="tags__tag" href="#!">Сумки</a><a class="tags__tag" href="#!">сандалии женские</a><a class="tags__tag" href="#!">Полуботинки</a><a class="tags__tag" href="#!">Стильная обувь</a><a class="tags__tag" href="#!">лето</a><a class="tags__tag" href="#!">Детям</a><a class="tags__tag" href="#!">Головные уборы</a><a class="tags__tag" href="#!">Мальчикам</a><a class="tags__tag" href="#!">Не дорого</a><a class="tags__tag" href="#!">Мужская обувь</a><a class="tags__tag" href="#!">кроссовки женские</a><a class="tags__tag" href="#!">кроссовки</a><a class="tags__tag" href="#!">Девочкам</a><a class="tags__tag" href="#!">обувь женская</a><a class="tags__tag" href="#!">Носки</a><a class="tags__tag" href="#!">домашняя обувь</a><a class="tags__tag" href="#!">женская обувь</a><a class="tags__tag" href="#!">туфли на высоком каблуке</a><a class="tags__tag" href="#!">Сумки женские</a><a class="tags__tag" href="#!">туфли женские</a><a class="tags__tag" href="#!">кеды женские</a><a class="tags__tag" href="#!">Зима</a><a class="tags__tag" href="#!">Распродажа</a><a class="tags__tag" href="#!">Классика</a><a class="tags__tag" href="#!">Осень весна</a><a class="tags__tag" href="#!">Удобная обувь</a><a class="tags__tag" href="#!">Стельки</a></div>
+        </div>
+         <a class="categories__item categories__female" href="#!">
+             <span class="categories__num">
+                 27
+             </span>
+              <h3 class="categories__title">
+                  Женская обувь
+              </h3>
+          </a>
+          <a class="categories__item categories__male" href="#!"><span class="categories__num">25</span>
+          <h3 class="categories__title">Мужская обувь</h3></a><a class="categories__item categories__sport" href="#!"><span class="categories__num">19</span>
+          <h3 class="categories__title">Спортивная обувь</h3></a><a class="categories__item categories__child" href="#!"><span class="categories__num">24</span>
+          <h3 class="categories__title">Детская обувь</h3></a><a class="categories__item categories__acces" href="#!"><span class="categories__num">22</span>
+          <h3 class="categories__title">Аксессуары</h3></a>
+      </div>
+      <div class="str__slider">
+        <div class="str__slide"><img src="img/strange-slider/beta-min.png"/></div>
+        <div class="str__slide"><img src="img/strange-slider/beauty-min.png"/></div>
+        <div class="str__slide"><img src="img/strange-slider/design-min.png"/></div>
+        <div class="str__slide"><img src="img/strange-slider/expert-min.png"/></div>
+        <div class="str__slide"><img src="img/strange-slider/fashion-min.png"/></div>
+        <div class="str__slide"><img src="img/strange-slider/jim-min.png"/></div>
+        <div class="str__slide"><img src="img/strange-slider/lux-min.png"/></div>
+        <div class="str__slide"><img src="img/strange-slider/manicure-min.png"/></div>
+        <div class="str__slide"><img src="img/strange-slider/studio-min.png"/></div>
+        <div class="str__slide"><img src="img/strange-slider/youhan-min.png"/></div>
+      </div>
+      <section class="popular">
+          <h2 class="popular__title">
+              Популярные товары
+          </h2>
+          <div class="popular__slider">
+
+            <div class="popular__item">
+                  <a href="#!" class="popular__img">
+                     <img src="img/popular/1.png" alt="">
+                      <div class="popular__img-status">
+                          <span class="popular__status-item">
+                              New
+                          </span>
+                          <span class="popular__status-item">
+                              Sale
+                          </span>
+                      </div>
+                      <div class="popular__img-go">
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                      </div>
+                  </a>
+                  <div class="popular__info">
+                      <a href="#!" class="popular__name">
+                          Кроссовки W965541
+                      </a>
+                      <a href="#!" class="popular__subname">
+                          Kisne
+                      </a>
+                      <span class="popular__articule">
+                          Артикул: 57037
+                      </span>
+                      <div class="popular__cross">
+                          <div class="popular__counter">
+                              <div class="popular__minus">
+                                  -
+                              </div>
+                              <div class="popular__count-num">
+                                  1
+                              </div>
+                              <div class="popular__plus">
+                                  +
+                              </div>
+                          </div>
+                          <div class="popular__sticker">
+                              <i class="fas fa-percent"></i>
+                          </div>
+                          <div class="popular__discount">
+                              <h4 class="popular__discount-ttl">
+                                  Скидка 20%
+                              </h4>
+                              <p class="popular__discount-txt">
+                                  Сэкономьте 20% при покупке ДВУХ пар любых кроссовок
+                              </p>
+                              <i class="fas fa-times popular__discount-close"></i>
+                          </div>
+                          <b class="popular__price">6 490 <span>р.</span></b>
+                          <span class="cross__status">
+                              В наличии
+                          </span>
+                      </div>
+                      <div class="popular__info-go">
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                      </div>
+                  </div>
+              </div>
+              <div class="popular__item">
+                  <a href="#!" class="popular__img">
+                     <img src="img/popular/1.png" alt="">
+                      <div class="popular__img-status">
+                          <span class="popular__status-item">
+                              New
+                          </span>
+                          <span class="popular__status-item">
+                              Sale
+                          </span>
+                      </div>
+                      <div class="popular__img-go">
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                      </div>
+                  </a>
+                  <div class="popular__info">
+                      <a href="#!" class="popular__name">
+                          Кроссовки W965541
+                      </a>
+                      <a href="#!" class="popular__subname">
+                          Kisne
+                      </a>
+                      <span class="popular__articule">
+                          Артикул: 57037
+                      </span>
+                      <div class="popular__cross">
+                          <div class="popular__counter">
+                              <div class="popular__minus" id="popular__minus">
+                                  -
+                              </div>
+                              <div class="popular__count-num" id="popular__count-num">
+                                  1
+                              </div>
+                              <div class="popular__plus" id="popular__plus">
+                                  +
+                              </div>
+                          </div>
+                          <div class="popular__sticker">
+                              <i class="fas fa-percent"></i>
+                          </div>
+                          <div class="popular__discount">
+                              <h4 class="popular__discount-ttl">
+                                  Скидка 20%
+                              </h4>
+                              <p class="popular__discount-txt">
+                                  Сэкономьте 20% при покупке ДВУХ пар любых кроссовок
+                              </p>
+                              <i class="fas fa-times popular__discount-close"></i>
+                          </div>
+                          <b class="popular__price">6 490 <span>р.</span></b>
+                          <span class="cross__status">
+                              В наличии
+                          </span>
+                      </div>
+                      <div class="popular__info-go">
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                      </div>
+                  </div>
+              </div>
+              <div class="popular__item">
+                  <a href="#!" class="popular__img">
+                     <img src="img/popular/1.png" alt="">
+                      <div class="popular__img-status">
+                          <span class="popular__status-item">
+                              New
+                          </span>
+                          <span class="popular__status-item">
+                              Sale
+                          </span>
+                      </div>
+                      <div class="popular__img-go">
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                      </div>
+                  </a>
+                  <div class="popular__info">
+                      <a href="#!" class="popular__name">
+                          Кроссовки W965541
+                      </a>
+                      <a href="#!" class="popular__subname">
+                          Kisne
+                      </a>
+                      <span class="popular__articule">
+                          Артикул: 57037
+                      </span>
+                      <div class="popular__cross">
+                          <div class="popular__counter">
+                              <div class="popular__minus" id="popular__minus">
+                                  -
+                              </div>
+                              <div class="popular__count-num" id="popular__count-num">
+                                  1
+                              </div>
+                              <div class="popular__plus" id="popular__plus">
+                                  +
+                              </div>
+                          </div>
+                          <div class="popular__sticker">
+                              <i class="fas fa-percent"></i>
+                          </div>
+                          <div class="popular__discount">
+                              <h4 class="popular__discount-ttl">
+                                  Скидка 20%
+                              </h4>
+                              <p class="popular__discount-txt">
+                                  Сэкономьте 20% при покупке ДВУХ пар любых кроссовок
+                              </p>
+                              <i class="fas fa-times popular__discount-close"></i>
+                          </div>
+                          <b class="popular__price">6 490 <span>р.</span></b>
+                          <span class="cross__status">
+                              В наличии
+                          </span>
+                      </div>
+                      <div class="popular__info-go">
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                      </div>
+                  </div>
+              </div>
+              <div class="popular__item">
+                  <a href="#!" class="popular__img">
+                     <img src="img/popular/1.png" alt="">
+                      <div class="popular__img-status">
+                          <span class="popular__status-item">
+                              New
+                          </span>
+                          <span class="popular__status-item">
+                              Sale
+                          </span>
+                      </div>
+                      <div class="popular__img-go">
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                      </div>
+                  </a>
+                  <div class="popular__info">
+                      <a href="#!" class="popular__name">
+                          Кроссовки W965541
+                      </a>
+                      <a href="#!" class="popular__subname">
+                          Kisne
+                      </a>
+                      <span class="popular__articule">
+                          Артикул: 57037
+                      </span>
+                      <div class="popular__cross">
+                          <div class="popular__counter">
+                              <div class="popular__minus" id="popular__minus">
+                                  -
+                              </div>
+                              <div class="popular__count-num" id="popular__count-num">
+                                  1
+                              </div>
+                              <div class="popular__plus" id="popular__plus">
+                                  +
+                              </div>
+                          </div>
+                          <div class="popular__sticker">
+                              <i class="fas fa-percent"></i>
+                          </div>
+                          <div class="popular__discount">
+                              <h4 class="popular__discount-ttl">
+                                  Скидка 20%
+                              </h4>
+                              <p class="popular__discount-txt">
+                                  Сэкономьте 20% при покупке ДВУХ пар любых кроссовок
+                              </p>
+                              <i class="fas fa-times popular__discount-close"></i>
+                          </div>
+                          <b class="popular__price">6 490 <span>р.</span></b>
+                          <span class="cross__status">
+                              В наличии
+                          </span>
+                      </div>
+                      <div class="popular__info-go">
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                      </div>
+                  </div>
+              </div>
+              <div class="popular__item">
+                  <a href="#!" class="popular__img">
+                     <img src="img/popular/1.png" alt="">
+                      <div class="popular__img-status">
+                          <span class="popular__status-item">
+                              New
+                          </span>
+                          <span class="popular__status-item">
+                              Sale
+                          </span>
+                      </div>
+                      <div class="popular__img-go">
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                      </div>
+                  </a>
+                  <div class="popular__info">
+                      <a href="#!" class="popular__name">
+                          Кроссовки W965541
+                      </a>
+                      <a href="#!" class="popular__subname">
+                          Kisne
+                      </a>
+                      <span class="popular__articule">
+                          Артикул: 57037
+                      </span>
+                      <div class="popular__cross">
+                          <div class="popular__counter">
+                              <div class="popular__minus" id="popular__minus">
+                                  -
+                              </div>
+                              <div class="popular__count-num" id="popular__count-num">
+                                  1
+                              </div>
+                              <div class="popular__plus" id="popular__plus">
+                                  +
+                              </div>
+                          </div>
+                          <div class="popular__sticker">
+                              <i class="fas fa-percent"></i>
+                          </div>
+                          <div class="popular__discount">
+                              <h4 class="popular__discount-ttl">
+                                  Скидка 20%
+                              </h4>
+                              <p class="popular__discount-txt">
+                                  Сэкономьте 20% при покупке ДВУХ пар любых кроссовок
+                              </p>
+                              <i class="fas fa-times popular__discount-close"></i>
+                          </div>
+                          <b class="popular__price">6 490 <span>р.</span></b>
+                          <span class="cross__status">
+                              В наличии
+                          </span>
+                      </div>
+                      <div class="popular__info-go">
+                            <div class="popular__shop popular__shop-stat">
+                                <div class="popular__stat-wrap">
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                    <span class="popular__stat-item"></span>
+                                </div>
+                            </div>
+                            <span class="popular__shop popular__shopbg">
+                                <i class="fas fa-shopping-bag"></i>
+                            </span>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+      </section>
+      <div class="catalog">
+          <div class="catalog__item catalog__item1">
+              <h3 class="catalog__title">
+                  Спортивная обувь!
+              </h3>
+              <div class="catalog__flex">
+                  <a href="#!" class="to__catalog">
+                      В каталог
+                  </a>
+                  <span class="catalog__price">
+                      до - 30%
+                  </span>
+              </div>
+          </div>
+          <div class="catalog__item catalog__item2">
+              <h3 class="catalog__title">
+                  Спортивная обувь!
+              </h3>
+              <div class="catalog__flex">
+                  <a href="#!" class="to__catalog">
+                      В каталог
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="questions">
+          <img src="img/questions/question-min.png" alt="" class="questions__pic">
+          <h2 class="questions__title">
+              Остались вопросы?
+          </h2>
+          <a href="#!" class="questions__write">
+              Напишите нам
+          </a>
+      </div>
+      <div class="questions__form-wrapper">
+          <div class="questions__form">
+              <h3 class="questions__form-title">
+                  Остались вопросы?
+              </h3>
+              <label for="questions__form" class="questions__label">
+                  E-mail <span>*</span>
+              </label>
+              <input type="email" id="questions__form">
+              <button class="questions__submit">
+                  Отправить
+              </button>
+              <div class="questions__close">
+                  <i class="fas fa-times"></i>
+              </div>
+          </div>
+      </div>
+      <section class="about__store">
+          <h2 class="store__title">
+              О магазине
+          </h2>
+          <p class="store__text">
+              Обувь это не просто средство передвижения, в современном мире обувь – показатель вкуса, имиджа и характера человека. Зачем долго и утомительно ходить по торговым центрам в поисках понравившейся покупки? Клиенту проще за считанные минуты осуществить покупку в Интернет-магазине, которую доставят на дом! Сэкономленное время можно провести с хорошей компанией, семьей или за работой.<br><br>
+              Выбор обуви настолько огромен сегодня, что трудно выбрать, что-то конкретное и покупатели ходят из одного отдела в другой, пытаясь определиться. В Интернет-магазине все перед Вами. Фотографии с моделями правдоподобны и видно как выглядит вещь на человеке со стороны. Чего не скажешь про манекены в отделах продаж вещей.
+          </p>
+          <a href="#!" class="store__more">
+              Читать дальше
+          </a>
+      </section>
+      <section class="instagram">
+          <div class="insta__wrapper">
+              <div class="insta__header">
+                  <h2 class="insta__title">
+                      Мы в instagram
+                  </h2>
+                  <img src="img/insta/insta-icon-min.png" alt="">
+              </div>
+              <div class="insta__grid">
+                    <a href="img/insta/insta1-min.png" class="insta__grid-item insta__grid-item1">
+                        <img src="img/insta/insta1-min.png" alt="">
+                    </a>
+                    <a href="img/insta/insta2-min.png" class="insta__grid-item">
+                        <img src="img/insta/insta2-min.png" alt="">
+                    </a>
+                    <a href="img/insta/insta3-min.png" class="insta__grid-item">
+                        <img src="img/insta/insta3-min.png" alt="">
+                    </a>
+                    <a href="img/insta/insta4-min.png" class="insta__grid-item">
+                        <img src="img/insta/insta4-min.png" alt="">
+                    </a>
+                    <a href="img/insta/insta5-min.png" class="insta__grid-item">
+                        <img src="img/insta/insta5-min.png" alt="">
+                    </a>
+              </div>
+              <a href="#!" class="insta__subscribe">
+                  Подписаться
+              </a>
+          </div>
+      </section>
+      <section class="news">
+          <h2 class="news__title">
+              Новости / Статьи
+          </h2>
+          <div class="news__slider">
+              <div class="news__item">
+                  <div class="news__img">
+                      <img src="img/news/news1-min.jpg" alt="">
+                  </div>
+                  <time class="news__data">
+                      07.03.2020
+                  </time>
+                  <a href="#!" class="news__item-ttl">
+                      Классические черный туфли
+                  </a>
+                  <p class="news__text">
+                      Самое вермя подчеркнуть свой стиль новой классической коллекцией обуви
+                  </p>
+                  <a href="#!" class="news__more">
+                      Подробнее
+                  </a>
+              </div>
+              <div class="news__item">
+                  <div class="news__img">
+                      <img src="img/news/news2-min.jpg" alt="">
+                  </div>
+                  <time class="news__data">
+                      07.03.2020
+                  </time>
+                  <a href="#!" class="news__item-ttl">
+                      Классические черный туфли
+                  </a>
+                  <p class="news__text">
+                      Самое вермя подчеркнуть свой стиль новой классической коллекцией обуви
+                  </p>
+                  <a href="#!" class="news__more">
+                      Подробнее
+                  </a>
+              </div>
+              <div class="news__item">
+                  <div class="news__img">
+                      <img src="img/news/news3-min.jpg" alt="">
+                  </div>
+                  <time class="news__data">
+                      07.03.2020
+                  </time>
+                  <a href="#!" class="news__item-ttl">
+                      Классические черный туфли
+                  </a>
+                  <p class="news__text">
+                      Самое вермя подчеркнуть свой стиль новой классической коллекцией обуви
+                  </p>
+                  <a href="#!" class="news__more">
+                      Подробнее
+                  </a>
+              </div>
+              <div class="news__item">
+                  <div class="news__img">
+                      <img src="img/news/news4-min.jpg" alt="">
+                  </div>
+                  <time class="news__data">
+                      07.03.2020
+                  </time>
+                  <a href="#!" class="news__item-ttl">
+                      Классические черный туфли
+                  </a>
+                  <p class="news__text">
+                      Самое вермя подчеркнуть свой стиль новой классической коллекцией обуви
+                  </p>
+                  <a href="#!" class="news__more">
+                      Подробнее
+                  </a>
+              </div>
+              <div class="news__item">
+                  <div class="news__img">
+                      <img src="img/news/news5-min.jpg" alt="">
+                  </div>
+                  <time class="news__data">
+                      07.03.2020
+                  </time>
+                  <a href="#!" class="news__item-ttl">
+                      Классические черный туфли
+                  </a>
+                  <p class="news__text">
+                      Самое вермя подчеркнуть свой стиль новой классической коллекцией обуви
+                  </p>
+                  <a href="#!" class="news__more">
+                      Подробнее
+                  </a>
+              </div>
+          </div>
+      </section>
+      <section class="reviews">
+          <h2 class="reviews__title">
+              Отзывы о магазине
+          </h2>
+          <div class="reviews__slider">
+              <div class="reviews__item">
+                  <div class="reviews__img">
+                      <img src="img/reviews/reviews1-min.jpg" alt="">
+                  </div>
+                  <i class="fas fa-quote-left"></i>
+                  <time class="reviews__data">
+                      18.03.2020
+                  </time>
+                  <h4 class="reviews__author">
+                      Александра
+                  </h4>
+                  <p class="reviews__review">
+                      Туфли доставили в срок, качественные и по размеру сразу подошли. Курьер очень вежливый, предложил в начале примерить, а потом только оплата. Теперь буду только у них заказывать. Спасибо и желаю
+                  </p>
+              </div>
+              <div class="reviews__item">
+                  <div class="reviews__img">
+                      <img src="img/reviews/reviews2-min.jpg" alt="">
+                  </div>
+                  <i class="fas fa-quote-left"></i>
+                  <time class="reviews__data">
+                      18.03.2020
+                  </time>
+                  <h4 class="reviews__author">
+                      Ирина
+                  </h4>
+                  <p class="reviews__review">
+                      Туфли доставили в срок, качественные и по размеру сразу подошли. Курьер очень вежливый, предложил в начале примерить, а потом только оплата. Теперь буду только у них заказывать. Спасибо и желаю
+                  </p>
+              </div>
+              <div class="reviews__item">
+                  <div class="reviews__img">
+                      <img src="img/reviews/reviews3-min.jpg" alt="">
+                  </div>
+                  <i class="fas fa-quote-left"></i>
+                  <time class="reviews__data">
+                      18.03.2020
+                  </time>
+                  <h4 class="reviews__author">
+                      Максим
+                  </h4>
+                  <p class="reviews__review">
+                      Туфли доставили в срок, качественные и по размеру сразу подошли. Курьер очень вежливый, предложил в начале примерить, а потом только оплата. Теперь буду только у них заказывать. Спасибо и желаю
+                  </p>
+              </div>
+              <div class="reviews__item">
+                  <div class="reviews__img">
+                      <img src="img/reviews/reviews4-min.jpg" alt="">
+                  </div>
+                  <i class="fas fa-quote-left"></i>
+                  <time class="reviews__data">
+                      18.03.2020
+                  </time>
+                  <h4 class="reviews__author">
+                      Сергей Дмитриевич
+                  </h4>
+                  <p class="reviews__review">
+                      Туфли доставили в срок, качественные и по размеру сразу подошли. Курьер очень вежливый, предложил в начале примерить, а потом только оплата. Теперь буду только у них заказывать. Спасибо и желаю
+                  </p>
+              </div>
+          </div>
+      </section>
+      <footer class="footer">
+          <div class="footer__item">
+              <h2 class="footer__title">
+                  Подпишитесь на рассылку! @
+              </h2>
+              <form action="" class="footer__form">
+                  <input type="email" class="footer__input" placeholder="E-mail *">
+                  <button class="footer__submit">
+                      <i class="fas fa-paper-plane"></i>
+                  </button>
+                  <input type="checkbox" class="footer__check" id="footer__check">
+                  <label for="footer__check" class="footer__label">
+                      Я согласен на обработку моих <a href="#!">персональных данных</a>
+                  </label>
+              </form>
+          </div>
+          <div class="footer__info">
+              <div class="info__item info__item1">
+                  <div>
+                      <h3 class="info__store">
+                      Shoe store
+                      </h3>
+                      <h4 class="info__substore">
+                          Магазин обуви
+                      </h4>
+                  </div>
+                  <span>
+                      © 2019 - 2020
+                  </span>
+              </div>
+              <div class="info__item">
+                  <h3 class="info__contacts">
+                      Контакты
+                  </h3>
+                  <div class="info__tels">
+                      <a href="tel:+7 (000) 000-00-00" class="info__tel">
+                          +7 (000) 000-00-00
+                      </a>
+                      <a href="tel:8 (000) 111-11-11" class="info__tel">
+                          8 (000) 111-11-11
+                      </a>
+                      <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="info__map">
+                      <p class="info__map-text">
+                          г. Москва, Ленинский проспект, дом
+                      </p>
+                      <i class="fas fa-map-pin"></i>
+                  </div>
+                  <h4 class="info__pay">
+                      Принимаем к оплате
+                  </h4>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/visa.svg" alt="">
+                  </a>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/mir_1.svg" alt="">
+                  </a>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/m-card_1.svg" alt="">
+                  </a>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/yandex_1.svg" alt="">
+                  </a>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/paypal_1.svg" alt="">
+                  </a>
+              </div>
+              <div class="info__item">
+                  <h4 class="info__social-ttl">
+                      Мы в соцсетях
+                  </h4>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-vk"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-odnoklassniki"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-youtube"></i>
+                  </a>
+              </div>
+          </div>
+      </footer>
+    </div>
+    </div>
+    <div class="questions__black"></div>
+    <script src="js/jquery-2.2.4-min.js"></script>
+    <script src="js/libs.js"></script>
+    <script src="js/main-min.js"></script>
+    <script src="js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="dist/jquery.magnific-popup.min.js"></script>
+    <script src="js/shop.js"></script>
+  </body>
+</html>

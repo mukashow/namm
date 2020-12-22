@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Free Web tutorials"/>
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript"/>
+    <meta name="author" content="John Doe"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/about-us.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/magnific-popup.css">
+    <script src="https://kit.fontawesome.com/f0703ae7fb.js" crossorigin="anonymous"></script>
+    <title>О компании</title>
+</head>
+<body>
+    <div class="sidebar">
+      <button class="sidebar__button sidebar__hover sidebar__button-menu">
+        <div class="sidebar__menu">
+            <span class="sidebar__line"></span>
+            <span class="sidebar__line"></span>
+            <span class="sidebar__line"></span>
+        </div>
+      </button>
+      <button class="sidebar__button sidebar__hover sidebar__button-search">
+          <i class="fas fa-search"></i>
+      </button>
+      <button class="sidebar__button sidebar__cursor">
+        <div class="sidebar__subbtn sidebar__subbtn-shop">
+            <input type="num" value="0"class="sidebar__num sidebar__num1" disabled>
+            <i class="fas fa-shopping-bag"></i>
+        </div>
+      </button>
+      <button class="sidebar__button sidebar__hover sidebar__button-sign-in">
+          <i class="far fa-user-circle"></i>
+      </button>
+      <button class="sidebar__button sidebar__cursor">
+        <div class="sidebar__subbtn">
+              <input type="text" class="sidebar__num sidebar__num2" value="0" disabled>
+              <div class="sidebar__stat">
+                  <span class="sidebar__stat-line"></span>
+                  <span class="sidebar__stat-line"></span>
+                  <span class="sidebar__stat-line"></span>
+              </div>
+        </div>
+      </button>
+    </div>
+
+
+    <div class="mob__sidebar">
+      <button class="sidebar__button sidebar__hover sidebar__button-menu">
+        <div class="sidebar__menu">
+            <span class="sidebar__line"></span>
+            <span class="sidebar__line"></span>
+            <span class="sidebar__line"></span>
+        </div>
+      </button>
+      <button class="sidebar__button sidebar__hover sidebar__button-search">
+          <i class="fas fa-search"></i>
+      </button>
+      <button class="sidebar__button sidebar__hover sidebar__button-sign-in">
+          <i class="far fa-user-circle"></i>
+      </button>
+      <button class="sidebar__button sidebar__cursor sidebar__button-tel">
+        <i class="fas fa-phone-alt"></i>
+      </button>
+      <button class="sidebar__button sidebar__cursor">
+        <div class="sidebar__subbtn sidebar__subbtn-shop">
+            <input type="num" value="0"class="sidebar__num sidebar__num1" disabled>
+            <i class="fas fa-shopping-bag"></i>
+        </div>
+      </button>
+
+    </div>
+
+
+    <header class="header" id="top">
+      <div class="header__logo">
+          <span class="header__logo-name">
+              Shoe store
+          </span>
+          <span class="header__logo-subname">
+              Магазин обуви
+          </span>
+      </div>
+      <ul class="header__nav">
+        <li class="header__item">
+            <a class="header__link" href="index.html">
+                Главная
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="about-company.html">
+                О компании
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="delivery.html">
+                Доставка
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="reviews.html">
+                Отзывы
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="contacts.html">
+                Контакты
+            </a>
+        </li>
+        <li class="header__item">
+            <a class="header__link" href="multylink.html">
+                Мультиссылка
+            </a>
+        </li>
+      </ul>
+      <div class="header__contacts">
+           <i class="fas fa-phone-alt"></i>
+           <span class="header__num">
+               +7 (000) 000-00-00
+           </span>
+            <div class="header__dots">
+                <span class="dots__item"></span>
+                <span class="dots__item"></span>
+                <span class="dots__item"></span>
+            </div>
+      </div>
+    </header>
+    <div class="header__contacts-item">
+        <h3 class="info__contacts">
+            Контакты
+        </h3>
+        <div class="info__map">
+            <p class="info__map-text">
+                г. Москва, Ленинский проспект, дом
+            </p>
+            <i class="fas fa-map-pin"></i>
+        </div>
+        <div class="info__tels">
+            <a href="tel:+7 (000) 000-00-00" class="info__tel">
+                +7 (000) 000-00-00
+            </a>
+            <a href="tel:8 (000) 111-11-11" class="info__tel">
+                8 (000) 111-11-11
+            </a>
+            <i class="fas fa-phone-alt"></i>
+        </div>
+        <div class="info__item">
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-vk"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-odnoklassniki"></i>
+            </a>
+            <a href="#!" class="info__social-link">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+        <a href="#!" class="header__contacts-call">
+            Заказать
+        </a>
+        <i class="fas fa-times header__contacts-item-close"></i>
+    </div>
+
+    <div class="menu__catalog">
+        <h2 class="menu__catalog-ttl">
+            Каталог
+        </h2>
+        <div class="menu__catalog-item">
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Женская обувь
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Спортивная обувь
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Мужская обувь
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Детская обувь
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#!" class="menu__catalog-link">
+                <span>
+                    Аксессуары
+                </span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        <ul class="menu__header">
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="index.html">
+                        Главная
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="about-company.html">
+                        О компании
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="delivery.html">
+                        Доставка
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="reviews.html">
+                        Отзывы
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="contacts.html">
+                        Контакты
+                    </a>
+                </li>
+                <li class="menu__header-item">
+                    <a class="menu__header-ink" href="multylink.html">
+                        Мультиссылка
+                    </a>
+                </li>
+        </ul>
+        <i class="fas fa-times menu__catalog-close"></i>
+    </div>
+
+    <div class="menu__search">
+        <h3 class="menu__catalog-ttl">
+            Поиск
+        </h3>
+        <div class="menu__search-input">
+            <input type="text" placeholder="Поиск по магазину">
+            <i class="fas fa-search"></i>
+        </div>
+        <button class="menu__search-button">
+            Расширенный поиск
+            <i class="fas fa-sliders-h"></i>
+        </button>
+        <i class="fas fa-times menu__catalog-close menu__search-close"></i>
+    </div>
+
+    <div class="menu__sign-in">
+        <h3 class="menu__catalog-ttl">
+            Кабинет
+        </h3>
+        <form action="" class="menu__sign-form">
+            <div class="menu__sign-input-wrap">
+                <input type="email" class="menu__sign-input" placeholder="Логин">
+                <i class="far fa-user"></i>
+            </div>
+            <div class="menu__sign-input-wrap">
+                <input type="password" class="menu__sign-input" placeholder="Пароль">
+                <i class="fas fa-unlock-alt"></i>
+            </div>
+            <a href="#!" class="sign__password">
+                Забыли пароль?
+            </a>
+            <div class="sign__buttons">
+                <a href="#!" class="sign__sign sign__button">
+                    Войти
+                </a>
+                <a href="#!" class="sign__registration sign__button">
+                    Регистрация
+                </a>
+            </div>
+        </form>
+        <h4 class="sign__with">
+            Также Вы можете войти через:
+        </h4>
+        <div class="sign__links">
+            <a href="#!" class="sign__link">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-vk"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fas fa-at"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-odnoklassniki"></i>
+            </a>
+            <a href="#!" class="sign__link">
+                <i class="fab fa-yandex"></i>
+            </a>
+        </div>
+        <p class="sign__more">
+            Я согласен(на) на обработку моих персональных данных. <a href="#!">Подробнее</a>
+        </p>
+        <i class="fas fa-times menu__catalog-close menu__sign-in-close"></i>
+    </div>
+    <a href="#top" class="to__top">
+        Вверх
+        <i class="fas fa-arrow-right"></i>
+    </a>
+
+
+    <div class="wrapper__wrapper">
+        <div class="wrapper">
+            <h1 class="section__title about__title">
+                О компании
+            </h1>
+            <div class="intro">
+                   <div class="intro__popup">
+                        <a href="img/about-company/about-lg-min.jpg" class="intro__img">
+                            <img src="img/about-company/about-min.jpg" alt="" class="intro__pic">
+                        </a>
+                    </div>
+                    <p class="intro__text">
+                        Компания «Мегагруп» приветствует Вас на сайте Вашей компании!<br>
+                        Мы рады, что Вы сделали правильный выбор, ведь, создав сайт, Ваша компания приобрела свое лицо в безграничном пространстве Интернет!<br>
+                        Надеемся, что благодаря этому сайту Ваши потенциальные клиенты будут легко находить Вас в сети Интернет, и сайт в скором времени начнет приносить прибыль.<br><br>
+                        Ваш сайт имеет систему управления (CMS-S3 MegaSite), которая позволяет легко управлять содержанием сайта без наличия навыков программирования благодаря удобному пользовательскому интерфейсу.<br><br>
+                        Возможности сайта:
+                    </p>
+                <div class="opportunity">
+                    <h3 class="opportunity__ttl">
+                        1. Размещение текстовых страниц различных уровней вложенности
+                    </h3>
+                    <p class="opportunity__txt">
+                        Если Вы хотите, чтобы Ваш сайт не просто занимал свою нишу в сети Интернет, но и хорошо воспринимался поисковыми системами, Вы можете прочитать рекомендации, которые дает Яндекс - «Чем отличается качественный сайт от некачественного с точки зрения Яндекса».<br><br>
+                        Обращаем Ваше внимание, что текстовая информация на сайте должна быть индивидуальной, не скопированной с других Интернет-ресурсов, о чем указано в рекомендациях Яндекса:<br><br>
+                        «Мы стараемся не индексировать или не ранжировать высоко сайты, копирующие информацию с других ресурсов и не создающие оригинального контента или сервиса».<br><br>
+                    </p>
+                </div>
+                <div class="opportunity">
+                    <h3 class="opportunity__ttl">
+                        2. Размещение изображений (отдельные фотографии и фотогалерея)
+                    </h3>
+                    <p class="opportunity__txt">
+                        На сайте Вы можете размещать фотографии как на текстовых страницах, так и создавать фотогалереи. Наша система управления позволяет автоматически уменьшать фотографии, и все же мы рекомендуем при работе с изображениями в графических редакторах пользоваться функцией «Сохранить для Web». Она позволяет значительно сжимать размеры изображений. Благодаря этому быстрее загружается сайт и меньше расходуется трафик, что актуально для пользователей, которые не имеют доступа к безлимитному Интернету.
+                    </p>
+                </div>
+                <div class="opportunity">
+                    <h3 class="opportunity__ttl">
+                        3. Возможность создания таблиц в системе управления или их импорт из Excel.
+                    </h3>
+                    <p class="opportunity__txt">
+                        При импорте таблиц из Excel рекомендуется обращать внимание на их ширину и размеры. Если таблица сложная, она возможно будет плохо загружаться у посетителей сайта из за различных размеров мониторов и браузеров.
+                    </p>
+                </div>
+                <div class="certification">
+                    <h3 class="certification__ttl">
+                        Сертификаты
+                    </h3>
+                    <div class="certification__flex">
+                        <a href="img/about-company/certification1-lg-min.png" class="certification__item">
+                            <img src="img/about-company/certification1-min.png" alt="">
+                        </a>
+                        <a href="img/about-company/certification2-lg-min.png" class="certification__item">
+                            <img src="img/about-company/certification2-min.png" alt="">
+                        </a>
+                        <a href="img/about-company/certification3-lg-min.png" class="certification__item">
+                            <img src="img/about-company/certification3-min.png" alt="">
+                        </a>
+                        <a href="img/about-company/certification4-lg-min.png" class="certification__item">
+                            <img src="img/about-company/certification4-min.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+          <div class="footer__item">
+              <h2 class="footer__title">
+                  Подпишитесь на рассылку! @
+              </h2>
+              <form action="" class="footer__form">
+                  <input type="email" class="footer__input" placeholder="E-mail *">
+                  <button class="footer__submit">
+                      <i class="fas fa-paper-plane"></i>
+                  </button>
+                  <input type="checkbox" class="footer__check" id="footer__check">
+                  <label for="footer__check" class="footer__label">
+                      Я согласен на обработку моих <a href="#!">персональных данных</a>
+                  </label>
+              </form>
+          </div>
+          <div class="footer__info">
+              <div class="info__item info__item1">
+                  <div>
+                      <h3 class="info__store">
+                      Shoe store
+                      </h3>
+                      <h4 class="info__substore">
+                          Магазин обуви
+                      </h4>
+                  </div>
+                  <span>
+                      © 2019 - 2020
+                  </span>
+              </div>
+              <div class="info__item">
+                  <h3 class="info__contacts">
+                      Контакты
+                  </h3>
+                  <div class="info__tels">
+                      <a href="tel:+7 (000) 000-00-00" class="info__tel">
+                          +7 (000) 000-00-00
+                      </a>
+                      <a href="tel:8 (000) 111-11-11" class="info__tel">
+                          8 (000) 111-11-11
+                      </a>
+                      <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="info__map">
+                      <p class="info__map-text">
+                          г. Москва, Ленинский проспект, дом
+                      </p>
+                      <i class="fas fa-map-pin"></i>
+                  </div>
+                  <h4 class="info__pay">
+                      Принимаем к оплате
+                  </h4>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/visa.svg" alt="">
+                  </a>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/mir_1.svg" alt="">
+                  </a>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/m-card_1.svg" alt="">
+                  </a>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/yandex_1.svg" alt="">
+                  </a>
+                  <a href="#!" class="info__img">
+                      <img src="img/footer/paypal_1.svg" alt="">
+                  </a>
+              </div>
+              <div class="info__item">
+                  <h4 class="info__social-ttl">
+                      Мы в соцсетях
+                  </h4>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-vk"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-odnoklassniki"></i>
+                  </a>
+                  <a href="#!" class="info__social-link">
+                      <i class="fab fa-youtube"></i>
+                  </a>
+              </div>
+          </div>
+      </footer>
+        </div>
+    </div>
+
+
+
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/libs.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="dist/jquery.magnific-popup.min.js"></script>
+</body>
+</html>
